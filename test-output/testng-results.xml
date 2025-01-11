@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="1" ignored="0" total="22" passed="18">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up chrome withhttps://www.makemytrip.com/]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShots\handlingPopupFri_Oct_22_14_16_15_IST_2021.png.png]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShots\selectReturnFri_Oct_22_14_16_16_IST_2021.png.png]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShots\selectFromCityFri_Oct_22_14_16_21_IST_2021.png.png]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShots\selectToCityFri_Oct_22_14_16_25_IST_2021.png.png]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShots\departureOptionFri_Oct_22_14_16_26_IST_2021.png.png]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShots\returnOptionFri_Oct_22_14_16_27_IST_2021.png.png]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShots\travellersFri_Oct_22_14_16_30_IST_2021.png.png]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShots\clickSearchFri_Oct_22_14_16_38_IST_2021.png.png]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShots\closePopupFri_Oct_22_14_16_39_IST_2021.png.png]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShots\popularFiltersSelectFri_Oct_22_14_16_40_IST_2021.png.png]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShots\bookingFlightFri_Oct_22_14_16_42_IST_2021.png.png]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShots\handlingWindowsFri_Oct_22_14_16_43_IST_2021.png.png]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShots\pageSelection1Fri_Oct_22_14_16_47_IST_2021.png.png]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShots\passengerDetailsFri_Oct_22_14_16_55_IST_2021.png.png]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShots\confirmProceedClickFri_Oct_22_14_16_57_IST_2021.png.png]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShots\rarePopupHandlingFri_Oct_22_14_16_58_IST_2021.png.png]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShots\selectingSeatsFri_Oct_22_14_17_05_IST_2021.png.png]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShots\proceedToPayFri_Oct_22_14_17_06_IST_2021.png.png]]>
+    </line>
+    <line>
+      <![CDATA[FAIL]]>
+    </line>
+    <line>
+      <![CDATA[ScreenShots\pageSelection2Fri_Oct_22_14_17_23_IST_2021.png.png]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="79795" started-at="2021-10-22T14:16:06 IST" finished-at="2021-10-22T14:17:26 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="79795" started-at="2021-10-22T14:16:06 IST" finished-at="2021-10-22T14:17:26 IST">
+      <class name="com.testCases.RoundTripTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="setUp" is-config="true" duration-ms="6815" started-at="2021-10-22T14:16:06 IST" finished-at="2021-10-22T14:16:13 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up chrome withhttps://www.makemytrip.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="handlingPopup()[pri:1, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="handlingPopup" duration-ms="1549" started-at="2021-10-22T14:16:13 IST" finished-at="2021-10-22T14:16:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingPopup -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="screenshot" is-config="true" duration-ms="383" started-at="2021-10-22T14:16:15 IST" finished-at="2021-10-22T14:16:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=handlingPopup status=SUCCESS method=RoundTripTest.handlingPopup()[pri:1, instance:com.testCases.RoundTripTest@7e9a5fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScreenShots\handlingPopupFri_Oct_22_14_16_15_IST_2021.png.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="selectReturn()[pri:2, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="selectReturn" duration-ms="537" started-at="2021-10-22T14:16:15 IST" finished-at="2021-10-22T14:16:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectReturn -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="screenshot" is-config="true" duration-ms="404" started-at="2021-10-22T14:16:16 IST" finished-at="2021-10-22T14:16:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectReturn status=SUCCESS method=RoundTripTest.selectReturn()[pri:2, instance:com.testCases.RoundTripTest@7e9a5fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScreenShots\selectReturnFri_Oct_22_14_16_16_IST_2021.png.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="selectFromCity()[pri:3, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="selectFromCity" duration-ms="4597" started-at="2021-10-22T14:16:16 IST" finished-at="2021-10-22T14:16:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFromCity -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="screenshot" is-config="true" duration-ms="445" started-at="2021-10-22T14:16:21 IST" finished-at="2021-10-22T14:16:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectFromCity status=SUCCESS method=RoundTripTest.selectFromCity()[pri:3, instance:com.testCases.RoundTripTest@7e9a5fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScreenShots\selectFromCityFri_Oct_22_14_16_21_IST_2021.png.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="selectToCity()[pri:4, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="selectToCity" duration-ms="4111" started-at="2021-10-22T14:16:21 IST" finished-at="2021-10-22T14:16:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectToCity -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="screenshot" is-config="true" duration-ms="302" started-at="2021-10-22T14:16:25 IST" finished-at="2021-10-22T14:16:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectToCity status=SUCCESS method=RoundTripTest.selectToCity()[pri:4, instance:com.testCases.RoundTripTest@7e9a5fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScreenShots\selectToCityFri_Oct_22_14_16_25_IST_2021.png.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="departureOption()[pri:5, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="departureOption" duration-ms="335" started-at="2021-10-22T14:16:26 IST" finished-at="2021-10-22T14:16:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- departureOption -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="screenshot" is-config="true" duration-ms="356" started-at="2021-10-22T14:16:26 IST" finished-at="2021-10-22T14:16:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=departureOption status=SUCCESS method=RoundTripTest.departureOption()[pri:5, instance:com.testCases.RoundTripTest@7e9a5fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScreenShots\departureOptionFri_Oct_22_14_16_26_IST_2021.png.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="returnOption()[pri:6, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="returnOption" duration-ms="978" started-at="2021-10-22T14:16:26 IST" finished-at="2021-10-22T14:16:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnOption -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="screenshot" is-config="true" duration-ms="337" started-at="2021-10-22T14:16:27 IST" finished-at="2021-10-22T14:16:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=returnOption status=SUCCESS method=RoundTripTest.returnOption()[pri:6, instance:com.testCases.RoundTripTest@7e9a5fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScreenShots\returnOptionFri_Oct_22_14_16_27_IST_2021.png.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="travellers()[pri:7, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="travellers" duration-ms="2692" started-at="2021-10-22T14:16:28 IST" finished-at="2021-10-22T14:16:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travellers -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="screenshot" is-config="true" duration-ms="335" started-at="2021-10-22T14:16:30 IST" finished-at="2021-10-22T14:16:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=travellers status=SUCCESS method=RoundTripTest.travellers()[pri:7, instance:com.testCases.RoundTripTest@7e9a5fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScreenShots\travellersFri_Oct_22_14_16_30_IST_2021.png.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="clickSearch()[pri:8, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="clickSearch" duration-ms="7793" started-at="2021-10-22T14:16:31 IST" finished-at="2021-10-22T14:16:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearch -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="screenshot" is-config="true" duration-ms="482" started-at="2021-10-22T14:16:38 IST" finished-at="2021-10-22T14:16:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickSearch status=SUCCESS method=RoundTripTest.clickSearch()[pri:8, instance:com.testCases.RoundTripTest@7e9a5fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScreenShots\clickSearchFri_Oct_22_14_16_38_IST_2021.png.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="closePopup()[pri:9, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="closePopup" duration-ms="558" started-at="2021-10-22T14:16:39 IST" finished-at="2021-10-22T14:16:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopup -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="screenshot" is-config="true" duration-ms="350" started-at="2021-10-22T14:16:39 IST" finished-at="2021-10-22T14:16:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=closePopup status=SUCCESS method=RoundTripTest.closePopup()[pri:9, instance:com.testCases.RoundTripTest@7e9a5fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScreenShots\closePopupFri_Oct_22_14_16_39_IST_2021.png.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="popularFiltersSelect()[pri:10, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="popularFiltersSelect" duration-ms="635" started-at="2021-10-22T14:16:40 IST" finished-at="2021-10-22T14:16:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popularFiltersSelect -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="screenshot" is-config="true" duration-ms="438" started-at="2021-10-22T14:16:40 IST" finished-at="2021-10-22T14:16:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=popularFiltersSelect status=SUCCESS method=RoundTripTest.popularFiltersSelect()[pri:10, instance:com.testCases.RoundTripTest@7e9a5fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScreenShots\popularFiltersSelectFri_Oct_22_14_16_40_IST_2021.png.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="bookingFlight()[pri:11, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="bookingFlight" duration-ms="1300" started-at="2021-10-22T14:16:41 IST" finished-at="2021-10-22T14:16:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingFlight -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="screenshot" is-config="true" duration-ms="431" started-at="2021-10-22T14:16:42 IST" finished-at="2021-10-22T14:16:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bookingFlight status=SUCCESS method=RoundTripTest.bookingFlight()[pri:11, instance:com.testCases.RoundTripTest@7e9a5fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScreenShots\bookingFlightFri_Oct_22_14_16_42_IST_2021.png.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="handlingWindows()[pri:12, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="handlingWindows" duration-ms="92" started-at="2021-10-22T14:16:43 IST" finished-at="2021-10-22T14:16:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingWindows -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="screenshot" is-config="true" duration-ms="996" started-at="2021-10-22T14:16:43 IST" finished-at="2021-10-22T14:16:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=handlingWindows status=SUCCESS method=RoundTripTest.handlingWindows()[pri:12, instance:com.testCases.RoundTripTest@7e9a5fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScreenShots\handlingWindowsFri_Oct_22_14_16_43_IST_2021.png.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="pageSelection1()[pri:13, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="pageSelection1" duration-ms="2888" started-at="2021-10-22T14:16:44 IST" finished-at="2021-10-22T14:16:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSelection1 -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="screenshot" is-config="true" duration-ms="809" started-at="2021-10-22T14:16:47 IST" finished-at="2021-10-22T14:16:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pageSelection1 status=SUCCESS method=RoundTripTest.pageSelection1()[pri:13, instance:com.testCases.RoundTripTest@7e9a5fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScreenShots\pageSelection1Fri_Oct_22_14_16_47_IST_2021.png.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="passengerDetails()[pri:14, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="passengerDetails" duration-ms="7473" started-at="2021-10-22T14:16:47 IST" depends-on-methods="com.testCases.RoundTripTest.pageSelection1" finished-at="2021-10-22T14:16:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passengerDetails -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="screenshot" is-config="true" duration-ms="197" started-at="2021-10-22T14:16:55 IST" finished-at="2021-10-22T14:16:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=passengerDetails status=SUCCESS method=RoundTripTest.passengerDetails()[pri:14, instance:com.testCases.RoundTripTest@7e9a5fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScreenShots\passengerDetailsFri_Oct_22_14_16_55_IST_2021.png.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="confirmProceedClick()[pri:15, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="confirmProceedClick" duration-ms="2083" started-at="2021-10-22T14:16:55 IST" depends-on-methods="com.testCases.RoundTripTest.pageSelection1" finished-at="2021-10-22T14:16:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmProceedClick -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="screenshot" is-config="true" duration-ms="306" started-at="2021-10-22T14:16:57 IST" finished-at="2021-10-22T14:16:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=confirmProceedClick status=SUCCESS method=RoundTripTest.confirmProceedClick()[pri:15, instance:com.testCases.RoundTripTest@7e9a5fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScreenShots\confirmProceedClickFri_Oct_22_14_16_57_IST_2021.png.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="rarePopupHandling()[pri:16, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="rarePopupHandling" duration-ms="295" started-at="2021-10-22T14:16:57 IST" depends-on-methods="com.testCases.RoundTripTest.pageSelection1" finished-at="2021-10-22T14:16:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rarePopupHandling -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="screenshot" is-config="true" duration-ms="1321" started-at="2021-10-22T14:16:58 IST" finished-at="2021-10-22T14:16:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=rarePopupHandling status=SUCCESS method=RoundTripTest.rarePopupHandling()[pri:16, instance:com.testCases.RoundTripTest@7e9a5fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScreenShots\rarePopupHandlingFri_Oct_22_14_16_58_IST_2021.png.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="selectingSeats()[pri:17, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="selectingSeats" duration-ms="5905" started-at="2021-10-22T14:16:59 IST" depends-on-methods="com.testCases.RoundTripTest.pageSelection1" finished-at="2021-10-22T14:17:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectingSeats -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="screenshot" is-config="true" duration-ms="427" started-at="2021-10-22T14:17:05 IST" finished-at="2021-10-22T14:17:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectingSeats status=SUCCESS method=RoundTripTest.selectingSeats()[pri:17, instance:com.testCases.RoundTripTest@7e9a5fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScreenShots\selectingSeatsFri_Oct_22_14_17_05_IST_2021.png.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="proceedToPay()[pri:18, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="proceedToPay" duration-ms="294" started-at="2021-10-22T14:17:05 IST" depends-on-methods="com.testCases.RoundTripTest.pageSelection1" finished-at="2021-10-22T14:17:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToPay -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="screenshot" is-config="true" duration-ms="296" started-at="2021-10-22T14:17:06 IST" finished-at="2021-10-22T14:17:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=proceedToPay status=SUCCESS method=RoundTripTest.proceedToPay()[pri:18, instance:com.testCases.RoundTripTest@7e9a5fbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScreenShots\proceedToPayFri_Oct_22_14_17_06_IST_2021.png.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="FAIL" signature="pageSelection2()[pri:19, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="pageSelection2" duration-ms="16879" started-at="2021-10-22T14:17:06 IST" finished-at="2021-10-22T14:17:23 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Not In Page two]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Not In Page two
+at org.testng.Assert.fail(Assert.java:99)
+at com.testCases.RoundTripTest.pageSelection2(RoundTripTest.java:439)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[FAIL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pageSelection2 -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="screenshot" is-config="true" duration-ms="298" started-at="2021-10-22T14:17:23 IST" finished-at="2021-10-22T14:17:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pageSelection2 status=FAILURE method=RoundTripTest.pageSelection2()[pri:19, instance:com.testCases.RoundTripTest@7e9a5fbe] output=FAIL]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ScreenShots\pageSelection2Fri_Oct_22_14_17_23_IST_2021.png.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="SKIP" signature="proceed()[pri:20, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="proceed" duration-ms="0" started-at="2021-10-22T14:17:23 IST" depends-on-methods="com.testCases.RoundTripTest.pageSelection2" finished-at="2021-10-22T14:17:23 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method RoundTripTest.proceed()[pri:20, instance:com.testCases.RoundTripTest@7e9a5fbe] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method RoundTripTest.proceed()[pri:20, instance:com.testCases.RoundTripTest@7e9a5fbe] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceed -->
+        <test-method status="SKIP" signature="inputDetails()[pri:21, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="inputDetails" duration-ms="0" started-at="2021-10-22T14:17:23 IST" depends-on-methods="com.testCases.RoundTripTest.pageSelection2" finished-at="2021-10-22T14:17:23 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method RoundTripTest.inputDetails()[pri:21, instance:com.testCases.RoundTripTest@7e9a5fbe] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method RoundTripTest.inputDetails()[pri:21, instance:com.testCases.RoundTripTest@7e9a5fbe] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputDetails -->
+        <test-method status="SKIP" signature="confirmDetails()[pri:22, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="confirmDetails" duration-ms="0" started-at="2021-10-22T14:17:23 IST" depends-on-methods="com.testCases.RoundTripTest.pageSelection2" finished-at="2021-10-22T14:17:23 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method RoundTripTest.confirmDetails()[pri:22, instance:com.testCases.RoundTripTest@7e9a5fbe] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method RoundTripTest.confirmDetails()[pri:22, instance:com.testCases.RoundTripTest@7e9a5fbe] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.RoundTripTest@7e9a5fbe]" name="tearDown" is-config="true" duration-ms="2909" started-at="2021-10-22T14:17:23 IST" finished-at="2021-10-22T14:17:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.RoundTripTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
